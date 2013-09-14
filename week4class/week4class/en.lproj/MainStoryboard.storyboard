@@ -21,11 +21,19 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="ios-7.png" translatesAutoresizingMaskIntoConstraints="NO" id="vIf-pf-8hv">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="2xV-m2-0D9"/>
+                                    <constraint firstAttribute="height" constant="128" id="zDE-UG-KjB"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="d3a-oz-tSl" firstAttribute="centerX" secondItem="16" secondAttribute="centerX" type="default" id="ML7-2n-0XP"/>
+                            <constraint firstItem="vIf-pf-8hv" firstAttribute="centerX" secondItem="16" secondAttribute="centerX" type="default" id="eoe-iQ-gGT"/>
+                            <constraint firstItem="vIf-pf-8hv" firstAttribute="top" secondItem="16" secondAttribute="top" constant="70" id="fg4-ec-yfH"/>
                             <constraint firstItem="d3a-oz-tSl" firstAttribute="top" secondItem="16" secondAttribute="top" constant="20" symbolic="YES" type="default" id="hJE-Yj-3Ta"/>
+                            <constraint firstItem="vIf-pf-8hv" firstAttribute="centerX" secondItem="d3a-oz-tSl" secondAttribute="centerX" type="default" id="sIP-Cm-14y"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="First" image="first" id="7"/>
@@ -97,6 +105,7 @@
     </scenes>
     <resources>
         <image name="first" width="16" height="16"/>
+        <image name="ios-7.png" width="509" height="242"/>
         <image name="second" width="16" height="16"/>
     </resources>
     <classes>
