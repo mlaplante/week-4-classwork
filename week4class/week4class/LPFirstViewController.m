@@ -38,4 +38,21 @@
 - (IBAction)button2Tapped:(id)sender {
     self.lblTitle.text = @"Button 2 Tapped";
 }
+
+- (IBAction)onSocialIconTapped:(id)sender {
+    
+    switch ([sender tag]) {
+        case 1:
+            self.lblTitle.text = @"Facebook Tapped";
+            break;
+            
+        case 2:
+            self.lblTitle.text = @"YouTube Tapped";
+            break;
+            
+        case 3:
+            self.lblTitle.text = @"Twitter Tapped";
+            break;
+    }
+}
 @end

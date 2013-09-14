@@ -31,6 +31,7 @@
 		85854EA917E4A5AE00916F42 /* twitter@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 85854EA117E4A5AE00916F42 /* twitter@2x.png */; };
 		85854EAA17E4A5AE00916F42 /* youtube.png in Resources */ = {isa = PBXBuildFile; fileRef = 85854EA217E4A5AE00916F42 /* youtube.png */; };
 		85854EAB17E4A5AE00916F42 /* youtube@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 85854EA317E4A5AE00916F42 /* youtube@2x.png */; };
+		85854EAD17E4B9FA00916F42 /* movies.plist in Resources */ = {isa = PBXBuildFile; fileRef = 85854EAC17E4B9F900916F42 /* movies.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -64,6 +65,7 @@
 		85854EA117E4A5AE00916F42 /* twitter@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "twitter@2x.png"; sourceTree = "<group>"; };
 		85854EA217E4A5AE00916F42 /* youtube.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = youtube.png; sourceTree = "<group>"; };
 		85854EA317E4A5AE00916F42 /* youtube@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "youtube@2x.png"; sourceTree = "<group>"; };
+		85854EAC17E4B9F900916F42 /* movies.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = movies.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +123,7 @@
 		85854E7217E4A4A000916F42 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				85854EAC17E4B9F900916F42 /* movies.plist */,
 				85854E9B17E4A51C00916F42 /* Images */,
 				85854E7317E4A4A000916F42 /* week4class-Info.plist */,
 				85854E7417E4A4A000916F42 /* InfoPlist.strings */,
@@ -241,6 +244,7 @@
 				85854EA917E4A5AE00916F42 /* twitter@2x.png in Resources */,
 				85854EAA17E4A5AE00916F42 /* youtube.png in Resources */,
 				85854EAB17E4A5AE00916F42 /* youtube@2x.png in Resources */,
+				85854EAD17E4B9FA00916F42 /* movies.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
