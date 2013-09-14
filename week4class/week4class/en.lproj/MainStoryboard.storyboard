@@ -21,17 +21,10 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RN1-MV-Cit">
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="RN1-MV-Cit" firstAttribute="top" secondItem="16" secondAttribute="top" constant="115" id="Ifu-3L-9dd"/>
                             <constraint firstItem="d3a-oz-tSl" firstAttribute="centerX" secondItem="16" secondAttribute="centerX" type="default" id="ML7-2n-0XP"/>
-                            <constraint firstItem="RN1-MV-Cit" firstAttribute="centerX" secondItem="d3a-oz-tSl" secondAttribute="centerX" type="default" id="PMt-yc-XVM"/>
                             <constraint firstItem="d3a-oz-tSl" firstAttribute="top" secondItem="16" secondAttribute="top" constant="20" symbolic="YES" type="default" id="hJE-Yj-3Ta"/>
                         </constraints>
                     </view>
@@ -111,6 +104,7 @@
             <source key="sourceIdentifier" type="project" relativePath="./Classes/LPFirstViewController.h"/>
             <relationships>
                 <relationship kind="outlet" name="lblTitle" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="lblTitle2" candidateClass="UILabel"/>
             </relationships>
         </class>
         <class className="LPSecondViewController" superclassName="UIViewController">
