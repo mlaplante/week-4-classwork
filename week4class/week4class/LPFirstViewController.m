@@ -20,6 +20,9 @@
 	// Do any additional setup after loading the view, typically from a nib.
     
     self.lblTitle.text = @"iOS Class";
+    
+    
+    self.imgLogo.image = [UIImage imageNamed:@"ios-7.png"];
 }
 
 - (void)didReceiveMemoryWarning

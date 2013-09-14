@@ -11,5 +11,8 @@
 @interface LPFirstViewController : UIViewController
 
 @property (strong, nonatomic) IBOutlet UILabel *lblTitle;
+@property (strong, nonatomic) IBOutlet UIImageView *imgLogo;
+
+
 
 @end
