@@ -10,4 +10,6 @@
 
 @interface LPFirstViewController : UIViewController
 
+@property (strong, nonatomic) IBOutlet UILabel *lblTitle;
+
 @end
