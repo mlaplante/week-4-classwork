@@ -23,6 +23,14 @@
 		85854E8F17E4A4A000916F42 /* LPSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85854E8E17E4A4A000916F42 /* LPSecondViewController.m */; };
 		85854E9117E4A4A000916F42 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 85854E9017E4A4A000916F42 /* second.png */; };
 		85854E9317E4A4A000916F42 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 85854E9217E4A4A000916F42 /* second@2x.png */; };
+		85854EA417E4A5AE00916F42 /* facebook.png in Resources */ = {isa = PBXBuildFile; fileRef = 85854E9C17E4A5AE00916F42 /* facebook.png */; };
+		85854EA517E4A5AE00916F42 /* facebook@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 85854E9D17E4A5AE00916F42 /* facebook@2x.png */; };
+		85854EA617E4A5AE00916F42 /* ios-7.png in Resources */ = {isa = PBXBuildFile; fileRef = 85854E9E17E4A5AE00916F42 /* ios-7.png */; };
+		85854EA717E4A5AE00916F42 /* ios-7@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 85854E9F17E4A5AE00916F42 /* ios-7@2x.png */; };
+		85854EA817E4A5AE00916F42 /* twitter.png in Resources */ = {isa = PBXBuildFile; fileRef = 85854EA017E4A5AE00916F42 /* twitter.png */; };
+		85854EA917E4A5AE00916F42 /* twitter@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 85854EA117E4A5AE00916F42 /* twitter@2x.png */; };
+		85854EAA17E4A5AE00916F42 /* youtube.png in Resources */ = {isa = PBXBuildFile; fileRef = 85854EA217E4A5AE00916F42 /* youtube.png */; };
+		85854EAB17E4A5AE00916F42 /* youtube@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 85854EA317E4A5AE00916F42 /* youtube@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +56,14 @@
 		85854E8E17E4A4A000916F42 /* LPSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LPSecondViewController.m; sourceTree = "<group>"; };
 		85854E9017E4A4A000916F42 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
 		85854E9217E4A4A000916F42 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		85854E9C17E4A5AE00916F42 /* facebook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = facebook.png; sourceTree = "<group>"; };
+		85854E9D17E4A5AE00916F42 /* facebook@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "facebook@2x.png"; sourceTree = "<group>"; };
+		85854E9E17E4A5AE00916F42 /* ios-7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ios-7.png"; sourceTree = "<group>"; };
+		85854E9F17E4A5AE00916F42 /* ios-7@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ios-7@2x.png"; sourceTree = "<group>"; };
+		85854EA017E4A5AE00916F42 /* twitter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = twitter.png; sourceTree = "<group>"; };
+		85854EA117E4A5AE00916F42 /* twitter@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "twitter@2x.png"; sourceTree = "<group>"; };
+		85854EA217E4A5AE00916F42 /* youtube.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = youtube.png; sourceTree = "<group>"; };
+		85854EA317E4A5AE00916F42 /* youtube@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "youtube@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,17 +110,9 @@
 		85854E7117E4A4A000916F42 /* week4class */ = {
 			isa = PBXGroup;
 			children = (
-				85854E7A17E4A4A000916F42 /* LPAppDelegate.h */,
-				85854E7B17E4A4A000916F42 /* LPAppDelegate.m */,
+				85854E9A17E4A50100916F42 /* Controller */,
+				85854E9917E4A4F200916F42 /* Delegate */,
 				85854E8317E4A4A000916F42 /* MainStoryboard.storyboard */,
-				85854E8617E4A4A000916F42 /* LPFirstViewController.h */,
-				85854E8717E4A4A000916F42 /* LPFirstViewController.m */,
-				85854E8917E4A4A000916F42 /* first.png */,
-				85854E8B17E4A4A000916F42 /* first@2x.png */,
-				85854E8D17E4A4A000916F42 /* LPSecondViewController.h */,
-				85854E8E17E4A4A000916F42 /* LPSecondViewController.m */,
-				85854E9017E4A4A000916F42 /* second.png */,
-				85854E9217E4A4A000916F42 /* second@2x.png */,
 				85854E7217E4A4A000916F42 /* Supporting Files */,
 			);
 			path = week4class;
@@ -113,6 +121,7 @@
 		85854E7217E4A4A000916F42 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				85854E9B17E4A51C00916F42 /* Images */,
 				85854E7317E4A4A000916F42 /* week4class-Info.plist */,
 				85854E7417E4A4A000916F42 /* InfoPlist.strings */,
 				85854E7717E4A4A000916F42 /* main.m */,
@@ -122,6 +131,45 @@
 				85854E8117E4A4A000916F42 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		85854E9917E4A4F200916F42 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				85854E7A17E4A4A000916F42 /* LPAppDelegate.h */,
+				85854E7B17E4A4A000916F42 /* LPAppDelegate.m */,
+			);
+			name = Delegate;
+			sourceTree = "<group>";
+		};
+		85854E9A17E4A50100916F42 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				85854E8E17E4A4A000916F42 /* LPSecondViewController.m */,
+				85854E8D17E4A4A000916F42 /* LPSecondViewController.h */,
+				85854E8617E4A4A000916F42 /* LPFirstViewController.h */,
+				85854E8717E4A4A000916F42 /* LPFirstViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		85854E9B17E4A51C00916F42 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				85854E9C17E4A5AE00916F42 /* facebook.png */,
+				85854E9D17E4A5AE00916F42 /* facebook@2x.png */,
+				85854E9E17E4A5AE00916F42 /* ios-7.png */,
+				85854E9F17E4A5AE00916F42 /* ios-7@2x.png */,
+				85854EA017E4A5AE00916F42 /* twitter.png */,
+				85854EA117E4A5AE00916F42 /* twitter@2x.png */,
+				85854EA217E4A5AE00916F42 /* youtube.png */,
+				85854EA317E4A5AE00916F42 /* youtube@2x.png */,
+				85854E8917E4A4A000916F42 /* first.png */,
+				85854E8B17E4A4A000916F42 /* first@2x.png */,
+				85854E9017E4A4A000916F42 /* second.png */,
+				85854E9217E4A4A000916F42 /* second@2x.png */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -185,6 +233,14 @@
 				85854E8C17E4A4A000916F42 /* first@2x.png in Resources */,
 				85854E9117E4A4A000916F42 /* second.png in Resources */,
 				85854E9317E4A4A000916F42 /* second@2x.png in Resources */,
+				85854EA417E4A5AE00916F42 /* facebook.png in Resources */,
+				85854EA517E4A5AE00916F42 /* facebook@2x.png in Resources */,
+				85854EA617E4A5AE00916F42 /* ios-7.png in Resources */,
+				85854EA717E4A5AE00916F42 /* ios-7@2x.png in Resources */,
+				85854EA817E4A5AE00916F42 /* twitter.png in Resources */,
+				85854EA917E4A5AE00916F42 /* twitter@2x.png in Resources */,
+				85854EAA17E4A5AE00916F42 /* youtube.png in Resources */,
+				85854EAB17E4A5AE00916F42 /* youtube@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
