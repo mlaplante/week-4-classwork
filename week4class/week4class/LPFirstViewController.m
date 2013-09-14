@@ -31,4 +31,11 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)button1Tapped:(id)sender {
+    self.lblTitle.text = @"Button 1 Tapped";
+}
+
+- (IBAction)button2Tapped:(id)sender {
+    self.lblTitle.text = @"Button 2 Tapped";
+}
 @end

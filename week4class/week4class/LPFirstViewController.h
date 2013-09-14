@@ -13,6 +13,9 @@
 @property (strong, nonatomic) IBOutlet UILabel *lblTitle;
 @property (strong, nonatomic) IBOutlet UIImageView *imgLogo;
 
+- (IBAction)button1Tapped:(id)sender;
+- (IBAction)button2Tapped:(id)sender;
+
 
 
 @end
