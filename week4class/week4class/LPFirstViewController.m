@@ -55,4 +55,17 @@
             break;
     }
 }
+
+- (IBAction)onSwitch:(id)sender {
+    
+    if ([sender isOn])
+    {
+        self.imgLogo.alpha = 1.0f;
+    }
+    else
+    {
+        self.imgLogo.alpha = 0.0f;
+    }
+    
+}
 @end

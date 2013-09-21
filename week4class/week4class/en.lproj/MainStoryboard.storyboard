@@ -98,6 +98,13 @@
                                     <action selector="onSocialIconTapped:" destination="2" eventType="touchUpInside" id="EdD-ue-hEy"/>
                                 </connections>
                             </button>
+                            <switch opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" id="sd0-HL-D4o">
+                                <rect key="frame" x="122" y="341" width="79" height="27"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="onSwitch:" destination="2" eventType="valueChanged" id="yTJ-xC-BZV"/>
+                                </connections>
+                            </switch>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
@@ -174,6 +181,7 @@
                 <relationship kind="action" name="button1Tapped:"/>
                 <relationship kind="action" name="button2Tapped:"/>
                 <relationship kind="action" name="onSocialIconTapped:"/>
+                <relationship kind="action" name="onSwitch:"/>
                 <relationship kind="outlet" name="imgLogo" candidateClass="UIImageView"/>
                 <relationship kind="outlet" name="lblTitle" candidateClass="UILabel"/>
             </relationships>

@@ -17,6 +17,7 @@
 - (IBAction)button2Tapped:(id)sender;
 
 - (IBAction)onSocialIconTapped:(id)sender;
+- (IBAction)onSwitch:(id)sender;
 
 
 @end
